@@ -10,9 +10,9 @@
 		echo "Adios muy buenas!!";
 	}
 
-	public function sumaEnteros ( intA , intB )
+	public function sumaEnteros ( $intA , $intB )
 	{
-		return intA + intB;
+		return $intA + $intB;
 	}
 
 
