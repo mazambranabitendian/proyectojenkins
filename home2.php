@@ -1,6 +1,6 @@
 <?php
 
-	public function nuevafuncion ()
+	function nuevafuncion ()
 	{
 		$a = 5;
 		$b = 10;

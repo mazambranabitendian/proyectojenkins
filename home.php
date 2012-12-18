@@ -1,19 +1,21 @@
 <?php
 
-	public function holaMundo ()
+	function holaMundo ()
 	{
 		echo "Hola Mundo!!";
 	}
 
-	public function adiosMundo ()
+	function adiosMundo ()
 	{
 		echo "Adios muy buenas!!";
 	}
 
-	public function sumaEnteros ( $intA , $intB )
+	function sumaEnteros ( $intA , $intB )
 	{
 		return $intA + $intB;
 	}
+
+	echo sumaEnteros ( 10 , 20 );
 
 
 ?>
