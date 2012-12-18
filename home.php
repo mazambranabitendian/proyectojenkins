@@ -12,10 +12,8 @@
 
 	function sumaEnteros ( $intA , $intB )
 	{
-		return $intA + $intB;
+		return $intA + $intB + 1;
 	}
-
-	echo sumaEnteros ( 10 , 20 );
 
 
 ?>
