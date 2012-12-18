@@ -12,6 +12,15 @@ class EjemploTest extends PHPUnit_Framework_TestCase
 	$result = sumaEnteros ( $a , $b );
 	$this->assertEquals( $result , 15 );
     }
+    
+    public function testNewReturnGreeting() 
+    {
+        $a = 10;
+	$b = 5;
+
+	$result = sumaEnteros ( $a , $b );
+	$this->assertEquals( $result , 15 );
+    }
 
     public function testOtherExample()
     {

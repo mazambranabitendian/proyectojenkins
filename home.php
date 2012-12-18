@@ -12,7 +12,7 @@
 
 	function sumaEnteros ( $intA , $intB )
 	{
-		return $intA + $intB + 1;
+		return $intA + $intB;
 	}
 
 
